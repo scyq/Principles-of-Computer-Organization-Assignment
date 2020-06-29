@@ -1,0 +1,213 @@
+m255
+K3
+13
+cModel Technology
+Z0 d\\Mac\Home\Documents\BJUT\Principles of Computer Organization Assignment\Project1
+T_opt
+VfB7YK8UQh^lmThoN]QfQQ2
+04 4 4 work Test fast 0
+=1-001c4242bfbf-5ef83c66-d8-11fc
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.1a;51
+Z1 d\\Mac\Home\Documents\BJUT\Principles of Computer Organization Assignment\Project1
+valu
+VbmGFk4Sfa]]k0z44X=D0;1
+r1
+31
+IfWmDJmoR^^Am8VkfLo;Hk1
+R1
+w1593451589
+8//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/alu.v
+F//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/alu.v
+L0 1
+Z2 OE;L;10.1a;51
+Z3 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+!s100 EVb_:chOAaT3h]??AgF_g2
+!s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/alu.v|
+!s108 1593454096.351000
+!s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/alu.v|
+vcontroller
+Vd`Rn@Y;ME:d=:<I@;jD<A0
+r1
+31
+IP;5cTcAlN@0l_4]lmBlfz3
+R1
+w1593446310
+8//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/controller.v
+F//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/controller.v
+L0 1
+R2
+R3
+!i10b 1
+!s85 0
+!s100 :2OG3e7Z?G_ZmLWJG^^:@0
+!s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/controller.v|
+!s108 1593454096.743000
+!s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/controller.v|
+vdm_1k
+VHb_zdC1410ZkAGc[T]_4^2
+r1
+31
+IV6XELEOJzGe[bQ>>5IMNz0
+R1
+w1593454075
+8//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/dm_1k.v
+F//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/dm_1k.v
+L0 1
+R2
+R3
+!i10b 1
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/dm_1k.v|
+!s100 @dhZlP@j[CzAB<2=E[IC90
+!s108 1593454096.898000
+!s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/dm_1k.v|
+vext
+!i10b 1
+VRI[84R0Ha<GOS44cE5G:O1
+r1
+!s85 0
+31
+IS@dSDk8Wzc6cYSSeQPb_d0
+R1
+w1593349820
+8//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/ext.v
+F//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/ext.v
+L0 1
+R2
+R3
+!s100 ^6hMXOFhiR:zj:Yk@OMjL2
+!s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/ext.v|
+!s108 1593454096.523000
+!s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/ext.v|
+vgpr
+VlRLVXhkd>m;WQK9XC``hm1
+r1
+31
+ITZY?CXfb@Y9ZQzY5d1k>S2
+R1
+w1593444242
+8//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/gpr.v
+F//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/gpr.v
+L0 1
+R2
+R3
+!i10b 1
+!s85 0
+!s100 j<@]?@45f^bcWg7jC3dB92
+!s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/gpr.v|
+!s108 1593454096.429000
+!s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/gpr.v|
+vIFU
+IMhL_CVFC]P:KLb^nXfUTQ1
+VaJG5HFai:@<0o3RF1VBd61
+R1
+w1593330107
+8//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/IFU.v
+F//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/IFU.v
+L0 1
+R2
+r1
+31
+R3
+n@i@f@u
+!s100 gJ@DdjHQT48H<[egUNOik3
+!s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/IFU.v|
+!s108 1593358200.306000
+!s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/IFU.v|
+!i10b 1
+!s85 0
+vim_1k
+VhWmVPd4oE5A1Xkle@lUIl2
+r1
+31
+I0GalR^]7MggVMfHCCX:Fm0
+R1
+w1593440316
+8//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/im_1k.v
+F//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/im_1k.v
+L0 1
+R2
+R3
+!i10b 1
+!s85 0
+!s100 =0YDhRH:LSoANlG2N@iX>1
+!s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/im_1k.v|
+!s108 1593454096.961000
+!s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/im_1k.v|
+vmips
+V^lO[ZOI0I1e8M8GJjI9B:3
+r1
+31
+I^LTP[BIIV8@[Y4agPW2l_0
+R1
+w1593445720
+8//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/mips.v
+F//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/mips.v
+L0 1
+R2
+R3
+!i10b 1
+!s85 0
+!s100 Q:YGYh861V8E]F]aNE8;X0
+!s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/mips.v|
+!s108 1593454096.820000
+!s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/mips.v|
+vnpc
+VT:2IES@Ob?4liF[>QSBLe1
+r1
+31
+I1G_ngYGP8;zU^V0Rh:1]00
+R1
+w1593447773
+8//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/npc.v
+F//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/npc.v
+L0 1
+R2
+R3
+!i10b 1
+!s85 0
+!s100 GnP`9ZV2WTTEcgG[MSVAo0
+!s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/npc.v|
+!s108 1593454096.601000
+!s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/npc.v|
+vpc
+VKLBCETg:<HgWZ4b8?5K_O0
+r1
+31
+IHRV[OGBcgboH^ADC;XZC?3
+R1
+w1593351541
+8//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/pc.v
+F//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/pc.v
+L0 1
+R2
+R3
+!i10b 1
+!s85 0
+!s100 RbYaP7gfLCfmV]FL2mb^W2
+!s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/pc.v|
+!s108 1593454096.664000
+!s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/pc.v|
+vTest
+VU7RCK<DV^KITSa1^IXRKH1
+r1
+31
+IaE]==^F]eQZ8H8^ggbPS?2
+R1
+w1593435529
+8//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/Test.v
+F//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/Test.v
+L0 1
+R2
+R3
+n@test
+!i10b 1
+!s85 0
+!s100 eE=kchm9J_6eKB1dMzimO3
+!s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/Test.v|
+!s108 1593454096.273000
+!s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/Test.v|

@@ -1,0 +1,71 @@
+{//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/Test.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/Test.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Test
+
+Top level modules:
+	Test
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/controller.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/controller.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/dm_1k.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/dm_1k.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_1k
+
+Top level modules:
+	dm_1k
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/ext.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/ext.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/im_1k.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/im_1k.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_1k
+
+Top level modules:
+	im_1k
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/gpr.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/gpr.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/mips.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/mips.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/npc.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/npc.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/alu.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/alu.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/pc.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/pc.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}}
