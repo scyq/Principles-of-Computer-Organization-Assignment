@@ -15,9 +15,9 @@ valu
 VbmGFk4Sfa]]k0z44X=D0;1
 r1
 31
-IfWmDJmoR^^Am8VkfLo;Hk1
+IK5_K:i89SG<idjhfj>o^D2
 R1
-w1593451589
+w1593500103
 8//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/alu.v
 F//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/alu.v
 L0 1
@@ -25,9 +25,9 @@ Z2 OE;L;10.1a;51
 Z3 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
 !i10b 1
 !s85 0
-!s100 EVb_:chOAaT3h]??AgF_g2
 !s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/alu.v|
-!s108 1593454096.351000
+!s100 [=>_ZgSZGSa`>j3IDldJ>2
+!s108 1593500103.453000
 !s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/alu.v|
 vcontroller
 Vd`Rn@Y;ME:d=:<I@;jD<A0
@@ -45,7 +45,7 @@ R3
 !s85 0
 !s100 :2OG3e7Z?G_ZmLWJG^^:@0
 !s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/controller.v|
-!s108 1593454096.743000
+!s108 1593500103.829000
 !s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/controller.v|
 vdm_1k
 VHb_zdC1410ZkAGc[T]_4^2
@@ -61,9 +61,9 @@ R2
 R3
 !i10b 1
 !s85 0
-!s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/dm_1k.v|
 !s100 @dhZlP@j[CzAB<2=E[IC90
-!s108 1593454096.898000
+!s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/dm_1k.v|
+!s108 1593500103.970000
 !s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/dm_1k.v|
 vext
 !i10b 1
@@ -81,7 +81,7 @@ R2
 R3
 !s100 ^6hMXOFhiR:zj:Yk@OMjL2
 !s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/ext.v|
-!s108 1593454096.523000
+!s108 1593500103.610000
 !s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/ext.v|
 vgpr
 VlRLVXhkd>m;WQK9XC``hm1
@@ -99,7 +99,7 @@ R3
 !s85 0
 !s100 j<@]?@45f^bcWg7jC3dB92
 !s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/gpr.v|
-!s108 1593454096.429000
+!s108 1593500103.532000
 !s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/gpr.v|
 vIFU
 IMhL_CVFC]P:KLb^nXfUTQ1
@@ -136,7 +136,7 @@ R3
 !s85 0
 !s100 =0YDhRH:LSoANlG2N@iX>1
 !s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/im_1k.v|
-!s108 1593454096.961000
+!s108 1593500104.032000
 !s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/im_1k.v|
 vmips
 V^lO[ZOI0I1e8M8GJjI9B:3
@@ -154,7 +154,7 @@ R3
 !s85 0
 !s100 Q:YGYh861V8E]F]aNE8;X0
 !s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/mips.v|
-!s108 1593454096.820000
+!s108 1593500103.892000
 !s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/mips.v|
 vnpc
 VT:2IES@Ob?4liF[>QSBLe1
@@ -172,7 +172,7 @@ R3
 !s85 0
 !s100 GnP`9ZV2WTTEcgG[MSVAo0
 !s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/npc.v|
-!s108 1593454096.601000
+!s108 1593500103.672000
 !s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/npc.v|
 vpc
 VKLBCETg:<HgWZ4b8?5K_O0
@@ -190,7 +190,7 @@ R3
 !s85 0
 !s100 RbYaP7gfLCfmV]FL2mb^W2
 !s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/pc.v|
-!s108 1593454096.664000
+!s108 1593500103.751000
 !s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/pc.v|
 vTest
 VU7RCK<DV^KITSa1^IXRKH1
@@ -209,5 +209,5 @@ n@test
 !s85 0
 !s100 eE=kchm9J_6eKB1dMzimO3
 !s90 -reportprogress|300|-work|work|-vopt|//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/Test.v|
-!s108 1593454096.273000
+!s108 1593500102.501000
 !s107 //Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project1/Test.v|

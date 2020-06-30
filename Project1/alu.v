@@ -5,8 +5,9 @@ module alu(a, b, aluCtr, result, zero, overflow);
   output zero;
   output overflow;
   
-  wire [32:0] addR = a + b;  // check addi overflow, 33 bits
+  wire [31:0] addR = a + b;  // check addi overflow, 33 bits
   wire [31:0] subR = a - b;
+  
   
   // 000 - addu / addiu / lw_addr / sw_addr
   // 001 - subu
@@ -15,7 +16,8 @@ module alu(a, b, aluCtr, result, zero, overflow);
   // 100 - slt
   // 101 - lui
   
-  assign overflow = (aluCtr == 3'b011) ? ((addR[32] == addR[31]) ? 0 : 1) : 0;
+  assign overflow = (a[31] == 0 && b[31] == 0 && addR[31] == 1 && aluCtr == 3'b011) 
+                    || (a[31] == 1 && b[31] == 1 && addR[31] == 0 && aluCtr == 3'b011) ? 1 : 0;
   assign result = 
     (aluCtr == 3'b000) ? addR[31:0]:
     (aluCtr == 3'b001) ? subR:
