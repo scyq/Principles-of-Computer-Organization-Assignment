@@ -1,0 +1,85 @@
+{//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/mips.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/mips.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/gpr.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/gpr.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/ir.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/ir.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ir
+
+Top level modules:
+	ir
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/pc.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/pc.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/controller.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/controller.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/dm_1k.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/dm_1k.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_1k
+
+Top level modules:
+	dm_1k
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/test.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/test.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/npc.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/npc.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/im_1k.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/im_1k.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_1k
+
+Top level modules:
+	im_1k
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/register_32.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/register_32.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module register_32
+
+Top level modules:
+	register_32
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/ext.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/ext.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/alu.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/alu.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}}
