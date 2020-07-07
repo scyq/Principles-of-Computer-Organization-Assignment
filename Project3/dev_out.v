@@ -1,0 +1,15 @@
+module dev_out(clk, data_in, addr, we, data_out);
+  input [31:0] data_in;
+  input clk, we, addr;
+  output [31:0] data_out;
+  reg [31:0] dev_reg[1:0];
+  
+  
+  assign data_out = dev_reg[addr];
+  
+  always @(posedge clk, posedge we)
+  begin
+    if (we)
+      dev_reg[addr] <= data_in;
+  end
+endmodule

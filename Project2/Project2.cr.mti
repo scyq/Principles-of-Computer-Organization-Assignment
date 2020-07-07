@@ -19,19 +19,12 @@ Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 Top level modules:
 	ir
 
-} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/pc.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/pc.v}
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/pc.v} {1 {vlog -work work -vopt {\\Mac\Home\Documents\BJUT\Principles of Computer Organization Assignment\Project2\pc.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module pc
 
 Top level modules:
 	pc
-
-} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/controller.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/controller.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module controller
-
-Top level modules:
-	controller
 
 } {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/dm_1k.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project2/dm_1k.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012

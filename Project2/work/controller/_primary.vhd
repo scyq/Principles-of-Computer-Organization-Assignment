@@ -30,7 +30,8 @@ entity controller is
         reg_from_sel    : out    vl_logic_vector(1 downto 0);
         b_sel           : out    vl_logic;
         ext_op          : out    vl_logic_vector(1 downto 0);
-        word_byte_sel   : out    vl_logic
+        word_byte_sel   : out    vl_logic;
+        bltzal_sel      : in     vl_logic
     );
     attribute mti_svvh_generic_type : integer;
     attribute mti_svvh_generic_type of s0 : constant is 1;

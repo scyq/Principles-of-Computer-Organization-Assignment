@@ -8,7 +8,7 @@ module test;
     reset = 0;    
     #2 reset = 1;
     #2 reset = 0;  
-    $readmemh("p2-modi.txt",test_mips.im_path.im);
+    $readmemh("p2-modi",test_mips.im_path.im);
   end 
 
   always

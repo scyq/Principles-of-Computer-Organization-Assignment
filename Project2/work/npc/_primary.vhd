@@ -9,6 +9,7 @@ entity npc is
         npc_sel         : in     vl_logic_vector(1 downto 0);
         gpr_in          : in     vl_logic_vector(31 downto 0);
         npc             : out    vl_logic_vector(31 downto 0);
-        pc_4            : out    vl_logic_vector(31 downto 0)
+        pc_4            : out    vl_logic_vector(31 downto 0);
+        bltzal_sel      : in     vl_logic
     );
 end npc;

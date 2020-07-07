@@ -1,0 +1,127 @@
+{//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/test.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/test.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/gpr.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/gpr.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/dm_1k.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/dm_1k.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_1k
+
+Top level modules:
+	dm_1k
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/machine.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/machine.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module machine
+
+Top level modules:
+	machine
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/Bridge.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/Bridge.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Bridge
+
+Top level modules:
+	Bridge
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/dev_in.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/dev_in.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dev_in
+
+Top level modules:
+	dev_in
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/dev_out.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/dev_out.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dev_out
+
+Top level modules:
+	dev_out
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/mips.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/mips.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/timer.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/timer.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module timer
+
+Top level modules:
+	timer
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/ext.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/ext.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/register_32.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/register_32.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module register_32
+
+Top level modules:
+	register_32
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/npc.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/npc.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/im_1k.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/im_1k.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_1k
+
+Top level modules:
+	im_1k
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/alu.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/alu.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/cp0.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/cp0.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module cp0
+
+Top level modules:
+	cp0
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/ir.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/ir.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ir
+
+Top level modules:
+	ir
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/pc.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/pc.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/controller.v} {1 {vlog -work work -vopt {//Mac/Home/Documents/BJUT/Principles of Computer Organization Assignment/Project3/controller.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}}

@@ -1,0 +1,49 @@
+module cp0(clk, rst, data_in, data_out, reg_addr, we, exlset, exlclr, pc_in, epc_out, hw_int, int_req_sel);
+  input clk, rst, we, exlset, exlclr;
+  input [31:0] data_in, pc_in;
+  input [7:2] hw_int;
+  input [4:0] reg_addr;
+  
+  output [31:0] data_out, epc_out;
+  output reg int_req_sel;
+  
+  reg [31:0] sr, cause, epc, prid;
+  
+  assign 
+  assign data_out = (reg_addr == 5'b01100) ? sr:
+                    (reg_addr == 5'b01101) ? cause:
+                    (reg_addr == 5'b01110) ? epc:
+                    (reg_addr == 5'b01111) ? prid : data_out;
+  assign epc_out = epc;
+  
+  always @(*)
+  begin
+    cause[15:10] = cause[15:10] | hw_int;
+    if (exlset) sr[1] = 1;
+    if (exlclr)
+      begin
+        sr[1] = 0;
+        cause[15:10] = 0;
+      end
+    int_req_sel = |(cause[15:10] & sr[15:10]) & sr[0] & !sr[1];
+  end
+  
+  always @(posedge clk, posedge rst)
+  begin
+    if (rst)
+      begin
+        sr <= 0;
+        cause <= 0;
+        epc <= 0;
+        prid <= 32'h1810_5226;
+      end
+    else begin
+      if (we) begin
+        if (reg_addr == 5'b01100) sr = {16'b0, data_in[15:10], 8'b0, data_in[1:0]};
+        if (reg_addr == 5'b01110) epc = data_in;
+        if (exlset) epc = pc_in;
+      end
+    end 
+  end
+  
+endmodule

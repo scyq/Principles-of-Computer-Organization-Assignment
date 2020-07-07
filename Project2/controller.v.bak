@@ -1,5 +1,5 @@
-module controller(clk , rst, opcode, funct, zero, overflow, pc_wr, npc_sel, ir_wr, gpr_wr, dm_wr, ALUCtr, reg_dst, reg_from_sel, b_sel, ext_op, word_byte_sel);
-  input clk, rst, zero, overflow;
+module controller(clk , rst, opcode, funct, zero, overflow, pc_wr, npc_sel, ir_wr, gpr_wr, dm_wr, ALUCtr, reg_dst, reg_from_sel, b_sel, ext_op, word_byte_sel, bltzal_sel);
+  input clk, rst, zero, overflow, bltzal_sel;
   input [5:0] opcode, funct;
   output pc_wr, ir_wr, gpr_wr, dm_wr, b_sel, word_byte_sel;
   output [1:0] npc_sel, reg_dst, ext_op, reg_from_sel;
@@ -22,19 +22,21 @@ module controller(clk , rst, opcode, funct, zero, overflow, pc_wr, npc_sel, ir_w
   wire j = opcode == 6'b000010;
   wire sb = opcode == 6'b101000;
   wire lb = opcode == 6'b100000;
+  wire bltzal = opcode == 6'b000001;
+  
   
   /*
   fsm
-  s0: ??
-  s1: ??
-  s2: ALU???? lw || sw || lb || sb
-  s3: ?DM??
-  s4: ?DM???
-  s5: ??DM
-  s6: ALU???? addu || addiu || addi || subu || ori || lui
-  s7: ?ALU??? 
-  s8: ??BEQ?????
-  s9: ??J?????
+  s0: fetch the instruction
+  s1: decode
+  s2: ALU calculate address lw || sw || lb || sb
+  s3: read from dm
+  s4: wire back from dm
+  s5: wire into dm
+  s6: ALU calculate numbers addu || addiu || addi || subu || ori || lui
+  s7: wire back from ALU 
+  s8: calculate beq address
+  s9: calculate j address
   
   lw || lb : s0 -> s1 -> s2 -> s3 -> s4
   
@@ -44,7 +46,7 @@ module controller(clk , rst, opcode, funct, zero, overflow, pc_wr, npc_sel, ir_w
   
   beq : s0 -> s1 -> s8
   
-  j || jal || j : s0 -> s1 -> s9
+  j || jal || jr : s0 -> s1 -> s9
   
   */  
   
@@ -61,14 +63,15 @@ module controller(clk , rst, opcode, funct, zero, overflow, pc_wr, npc_sel, ir_w
   
   assign pc_wr = (current_state == s0) ? 1: 
                  (current_state == s8) ? beq && zero:
+                 (current_state == s8) ? bltzal && bltzal_sel: 
                  (current_state == s9) ? ( j || jr || jal) : 0;
                  
   // 00 - pc + 4
   // 01 - j / jal
   // 10 - jr
-  // 11 - beq
-  assign npc_sel = (current_state == s1 && beq) ? 2'b11:
-                   (current_state == s8 && beq) ? 2'b11:
+  // 11 - beq / bltzal
+  assign npc_sel = (current_state == s1 && (beq || bltzal)) ? 2'b11:
+                   (current_state == s8 && (beq || bltzal)) ? 2'b11:
                    (current_state == s1 && (j || jal)) ? 2'b01:
                    (current_state == s9 && (j || jal)) ? 2'b01:
                    (current_state == s1 && jr) ? 2'b10:
@@ -78,7 +81,8 @@ module controller(clk , rst, opcode, funct, zero, overflow, pc_wr, npc_sel, ir_w
   
   assign gpr_wr = (current_state == s4) ? 1:
                   (current_state == s7) ? 1:
-                  (current_state == s9) ? jal : 0;
+                  (current_state == s9) ? jal :
+                  (current_state == s8) ? bltzal : 0;
   
   assign dm_wr = current_state == s5 ? 1 : 0;
   
@@ -102,13 +106,16 @@ module controller(clk , rst, opcode, funct, zero, overflow, pc_wr, npc_sel, ir_w
   // 11 - overflow $30
   assign reg_dst =  ((current_state == s1 || current_state == s2 || current_state == s7) && (addu || subu || slt)) ? 2'b01:
                     (current_state == s9 && jal) ? 2'b10:
+                    (current_state == s8 && bltzal) ? 2'b10:
                     (current_state == s7 && addi && overflow) ? 2'b11: 2'b00;
                     
   // 00 - from alu
   // 01 - from mem
   // 10 - pc_4 
   assign reg_from_sel = (current_state == s4 && (lw || lb)) ? 2'b01:
-                        (current_state == s9 && jal) ? 2'b10 : 2'b00;
+                        (current_state == s9 && jal) ? 2'b10 :
+                        (current_state == s8 && bltzal) ? 2'b10:
+                         2'b00;
   
   // 0 - gpr_busB
   // 1 - imm16                      
@@ -118,7 +125,7 @@ module controller(clk , rst, opcode, funct, zero, overflow, pc_wr, npc_sel, ir_w
   // 01 - sign ext
   // 10 - lui
   assign ext_op = ori ? 2'b00:
-                  (addi || addiu || beq || lw || sw) ? 2'b01:
+                  (addi || addiu || beq || lw || sw || bltzal) ? 2'b01:
                   lui ? 2'b10 : 2'b00;
   
   // 0 - word
@@ -140,7 +147,7 @@ module controller(clk , rst, opcode, funct, zero, overflow, pc_wr, npc_sel, ir_w
     else
       case (current_state)
         s0: next_state = s1;
-        s1: case ({(j || jal || jr), beq, (addu || addi || addiu || subu || ori || lui || slt), (lw || sw || lb || sb)})
+        s1: case ({(j || jal || jr), (beq || bltzal), (addu || addi || addiu || subu || ori || lui || slt), (lw || sw || lb || sb)})
             4'b0001 : next_state = s2;
             4'b0010 : next_state = s6;
             4'b0100 : next_state = s8;
