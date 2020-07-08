@@ -2,7 +2,6 @@ module mips(clk, rst);
   input clk;
   input rst;
   
-  
   wire [31:0] pc, npc, pc_4, instruction, busA, busB, busW, busA_reg, busB_reg, alu_b, alu_result, alu_out, dm_w, mem_out, dm_out, ext_out;
   wire [25:0] imm26;
   wire [15:0] imm16;
@@ -13,7 +12,8 @@ module mips(clk, rst);
   wire pc_wr, ir_wr, gpr_wr, dm_wr, b_sel, word_byte_sel, zero, overflow;
   wire bltzal_sel;
   
-  controller path_ctr(clk, rst, opcode, funct, zero, overflow, pc_wr, npc_sel, ir_wr, gpr_wr, dm_wr, ALUCtr, reg_dst, reg_from_sel, b_sel, ext_op, word_byte_sel, bltzal_sel);
+  controller path_ctr(clk, rst, opcode, funct, zero, overflow, pc_wr, npc_sel, ir_wr, gpr_wr, dm_wr, ALUCtr, reg_dst, reg_from_sel, b_sel, 
+                      ext_op, word_byte_sel, bltzal_sel);
   pc pc_path(clk, rst, npc, pc_wr, pc);
   im_1k im_path(pc[9:0], instruction);
   ir ir_path(clk, ir_wr, instruction, opcode, rs, rt, rd, funct, imm16, imm26);
@@ -37,7 +37,6 @@ module mips(clk, rst);
   assign rw = (reg_dst == 2'b00) ? rt:
               (reg_dst == 2'b01) ? rd: 
               (reg_dst == 2'b10) ? 5'b11111 : 5'b11110;
-              
               
   // 00 - from alu
   // 01 - from mem
