@@ -49,7 +49,5 @@ module mips(clk, rst);
   // 0 - busB
   // 1 - imm16
   assign alu_b = b_sel ? ext_out: busB_reg;
-
-
 endmodule
   
