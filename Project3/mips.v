@@ -38,7 +38,8 @@ module mips(clk, rst, pr_addr, pr_rd, wdin, wecpu, cp0_rd, cp0_addr, cp0_we, exl
   
   assign pc_ = pc;
   
-  controller path_ctr(clk, rst, opcode, funct, rs, zero, overflow, pc_wr, npc_sel, ir_wr, gpr_wr, dm_wr, ALUCtr, reg_dst, reg_from_sel, b_sel, ext_op, word_byte_sel, int_req_sel, exlset, exlclr, cp0_we);
+  controller path_ctr(clk, rst, opcode, funct, rs, zero, overflow, pc_wr, npc_sel, ir_wr, gpr_wr, dm_wr, ALUCtr, reg_dst, reg_from_sel, b_sel, ext_op, 
+                      word_byte_sel, int_req_sel, exlset, exlclr, cp0_we);
   pc pc_path(clk, rst, npc, pc_wr, pc);
   im_1k im_path(pc[12:0], instruction);
   ir ir_path(clk, ir_wr, instruction, opcode, rs, rt, rd, funct, imm16, imm26);
