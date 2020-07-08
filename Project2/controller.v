@@ -1,4 +1,5 @@
-module controller(clk , rst, opcode, funct, zero, overflow, pc_wr, npc_sel, ir_wr, gpr_wr, dm_wr, ALUCtr, reg_dst, reg_from_sel, b_sel, ext_op, word_byte_sel, bltzal_sel);
+module controller(clk , rst, opcode, funct, zero, overflow, pc_wr, npc_sel, ir_wr, gpr_wr, dm_wr, ALUCtr, reg_dst, reg_from_sel, b_sel, ext_op, 
+                  word_byte_sel, bltzal_sel);
   input clk, rst, zero, overflow, bltzal_sel;
   input [5:0] opcode, funct;
   output pc_wr, ir_wr, gpr_wr, dm_wr, b_sel, word_byte_sel;
